@@ -1,0 +1,88 @@
+
+/* Zelfgeschreven CSS voor enkele aanpassingen aan de layout van de website */
+
+.card-group{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    max-width: 900px;
+    width: auto;
+    border: none;
+}
+
+img{
+    display: inline-block;
+}
+
+.badge{
+    background-color: red;
+    margin-bottom: 0.5em;
+}
+
+.onderwerp{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    margin-bottom: 1em;
+}
+
+body{
+    background-color: #6D7993;
+}
+
+.form-signin-heading{
+    text-align: center;
+}
+
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-signin{
+    padding: 5em;
+    background-color: antiquewhite;
+}
+
+.readAllBtn{
+    background-color: #96858F;
+}
+
+.loginBody{
+    background-color: white;
+}
+
+.card{
+    min-width: inherit;
+    max-width: 900px;
+}
+
+.card-group-detail{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.comments{
+    margin: 30px;
+    width: 900px;
+}
+
+.readFullPostBtn{
+    background-color: #6D7993;
+}
